@@ -1,0 +1,22 @@
+{
+  "name": "service_worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "serve-favicon": "^2.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "until": "^0.1.1",
+    "web-push": "^3.4.5"
+  }
+}
